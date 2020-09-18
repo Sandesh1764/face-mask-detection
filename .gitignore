@@ -1,0 +1,30 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Local experiments (not needed on GitHub)
+user_predictions/
+test_outputs/
+images/aligned_output.jpg
+
+# Raw user uploads — keep locally; samples/ has curated demos
+samples/inputs/videos/KakaoTalk_*.mp4
+KakaoTalk_*.mp4
+
+# Legacy local folder (samples/ is canonical)
+/images/
+
+# Large generated outputs (samples/ has short clips only)
+**/KakaoTalk_*_predicted.mp4
